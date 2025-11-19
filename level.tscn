@@ -1,9 +1,122 @@
-[gd_scene format=3 uid="uid://j6j3cqmqatgj"]
+[gd_scene load_steps=2 format=3 uid="uid://j6j3cqmqatgj"]
+
+[ext_resource type="Script" uid="uid://pmtguo0pjm7s" path="res://level.gd" id="1_u52ul"]
 
 [node name="Game" type="Node2D"]
+script = ExtResource("1_u52ul")
 
-[node name="background" type="TextureRect" parent="."]
-offset_right = 448.0
-offset_bottom = 373.0
+[node name="Background" type="ColorRect" parent="."]
+color = Color(0.69803923, 0.74509805, 0.70980394, 1)
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="UI"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 40
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="TopPanel" type="HBoxContainer" parent="UI/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="UI/MarginContainer/VBoxContainer/TopPanel"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="UI/MarginContainer/VBoxContainer/TopPanel"]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="UI/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureButton" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton2" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton3" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton4" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton5" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton6" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton7" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton8" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton9" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton10" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton11" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton12" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton13" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton14" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton15" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton16" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton17" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton18" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton19" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton20" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton21" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton22" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton23" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton24" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="TextureButton25" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="Timer" type="Timer" parent="."]
