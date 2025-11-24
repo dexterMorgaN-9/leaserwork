@@ -21,6 +21,9 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = 8.0
+offset_right = 520.0
+offset_bottom = 598.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_left = 40
@@ -34,89 +37,151 @@ theme_override_constants/separation = 20
 
 [node name="TopPanel" type="HBoxContainer" parent="UI/MarginContainer/VBoxContainer"]
 layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 20
 
-[node name="Button" type="Button" parent="UI/MarginContainer/VBoxContainer/TopPanel"]
+[node name="Start button" type="Button" parent="UI/MarginContainer/VBoxContainer/TopPanel"]
+custom_minimum_size = Vector2(150, 50)
 layout_mode = 2
+text = "Start Game"
 
-[node name="Label" type="Label" parent="UI/MarginContainer/VBoxContainer/TopPanel"]
+[node name="StatusLabel" type="Label" parent="UI/MarginContainer/VBoxContainer/TopPanel"]
 layout_mode = 2
+text = "Click Start to begin"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="GridContainer" type="GridContainer" parent="UI/MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 5
 
-[node name="TextureButton" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+[node name="TextureButton1" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton2" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton3" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton4" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton5" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton6" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton7" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton8" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton9" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton10" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton11" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton12" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton13" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton14" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton15" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton16" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton17" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton18" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton19" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton20" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton21" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton22" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton23" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton24" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
 [node name="TextureButton25" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
+stretch_mode = 5
 
-[node name="Timer" type="Timer" parent="."]
+[node name="Show Timer" type="Timer" parent="."]
+wait_time = 4.0
+one_shot = true
