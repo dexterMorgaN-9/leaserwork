@@ -1,0 +1,88 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5yfbp5trrh0w"]
+
+[ext_resource type="Script" uid="uid://dhsyy2rbdg3vt" path="res://main_menu.gd" id="1_06t4h"]
+[ext_resource type="AudioStream" uid="uid://h6piy0qvmohq" path="res://sounds2/menu_musicXreal.wav" id="2_ekxnf"]
+[ext_resource type="AudioStream" uid="uid://dcgia7k0jsau3" path="res://sounds2/button_click.wav" id="3_bqqt6"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_06t4h")
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -8.0
+offset_top = -16.0
+offset_right = 1160.0
+offset_bottom = 648.0
+color = Color(0.101960786, 0.101960786, 0.18039216, 1)
+
+[node name="MenuMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_ekxnf")
+volume_db = -30.587
+autoplay = true
+
+[node name="ButtonClickSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_bqqt6")
+volume_db = 4.0
+
+[node name="MuteButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1000.0
+offset_right = 1150.0
+offset_bottom = 50.0
+text = "MUTE🔇"
+
+[node name="Label" type="Label" parent="MuteButton"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.73600006
+anchor_top = 0.123
+anchor_right = 0.73600006
+anchor_bottom = 0.123
+offset_left = -463.87207
+offset_top = 80.296
+offset_right = -39.87207
+offset_bottom = 424.296
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "\"WORLD HARDEST GAME\""
+
+[node name="EasyButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Easy"
+
+[node name="MediumButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Medium"
+
+[node name="HardButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Hard"
+
+[node name="Backbutton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 8.0
+offset_right = 968.0
+offset_bottom = 56.0
+
+[node name="Label" type="Label" parent="Backbutton"]
+layout_mode = 0
+offset_right = 150.0
+offset_bottom = 34.999996
+scale = Vector2(1.6, 1.6)
+text = "← BACK TO MENU"

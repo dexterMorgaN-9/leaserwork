@@ -1,0 +1,312 @@
+[gd_scene load_steps=32 format=3 uid="uid://j6j3cqmqatgj"]
+
+[ext_resource type="Script" uid="uid://pmtguo0pjm7s" path="res://level.gd" id="1_u52ul"]
+[ext_resource type="Texture2D" uid="uid://blq131qsqhp3" path="res://.png.png" id="2_1ainy"]
+[ext_resource type="AudioStream" uid="uid://c7m80actjjnvs" path="res://Sound/270303__littlerobotsoundfactory__collect_point_01.wav" id="2_f2txt"]
+[ext_resource type="AudioStream" uid="uid://cdoaorsnx7ckk" path="res://Sound/270324__littlerobotsoundfactory__menu_navigate_00.wav" id="3_1ainy"]
+[ext_resource type="AudioStream" uid="uid://cbhk3i8v5jky1" path="res://Sound/327736__distillerystudio__error_03.wav" id="4_n6hdu"]
+[ext_resource type="AudioStream" uid="uid://bn3y55yqbswfo" path="res://Sound/270528__littlerobotsoundfactory__jingle_win_00.wav" id="5_km5ld"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_u52ul"]
+load_path = "res://.godot/imported/1.png-6bf9df3b5784be454cdcca02772345da.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vonw3"]
+load_path = "res://.godot/imported/2.png-f832e620d4742cf09ec9ecd6c434c4e9.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oi3di"]
+load_path = "res://.godot/imported/3.png-5f9d74ed62231a20808fccee76c16da0.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0b4ue"]
+load_path = "res://.godot/imported/4.png-9e346a031bdb09978e30a70d1475d319.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_f2txt"]
+load_path = "res://.godot/imported/5.png-194068b5d149fc934409204ece4aff3d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1ainy"]
+load_path = "res://.godot/imported/6.png-f13a6aaec6641e7f5b1081ae76462908.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n6hdu"]
+load_path = "res://.godot/imported/7.png-baf7ed489583500d0eba1f5f609e9b35.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_km5ld"]
+load_path = "res://.godot/imported/8.png-0eee14998a09a65274abf11ee2e25e20.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i2t4f"]
+load_path = "res://.godot/imported/9.png-3567b0af3bcd774f5909aa527fc8d5f5.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8cye3"]
+load_path = "res://.godot/imported/10.png-7ca1c2683038771f55dd9c962640dd1f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2orkt"]
+load_path = "res://.godot/imported/11.png-cba579b44072ed25c244b1775ca7e89d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_aicyk"]
+load_path = "res://.godot/imported/12.png-922f12c3b068dc2ed8eb99f04c3363c7.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8b0r0"]
+load_path = "res://.godot/imported/13.png-4ac534719359ed3d16a5d6ce5524ee23.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_h6smj"]
+load_path = "res://.godot/imported/14.png-45328c1ba4df6515c1282198c1eed80a.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_v5j5c"]
+load_path = "res://.godot/imported/15.png-53a3ed98d23b724b52b2d60d3dd39f15.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5pxul"]
+load_path = "res://.godot/imported/16.png-6e08274631f976bad44bf10917859fec.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fedht"]
+load_path = "res://.godot/imported/17.png-e2c55169e5df752c9dbce0e529697c0f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4c15r"]
+load_path = "res://.godot/imported/18.png-6178fa8b008a3ee03ac912e250fe2acd.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ait7k"]
+load_path = "res://.godot/imported/19.png-b888ab1229458d64130a47cd41bb123a.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_42xju"]
+load_path = "res://.godot/imported/20.png-5b120bab9a07ae6e241469d8268edcde.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_v7sqt"]
+load_path = "res://.godot/imported/21.png-e268554026065f63ddfc17b020e3e8fe.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ilwjd"]
+load_path = "res://.godot/imported/22.png-4b1fb4afb93401d63ac58099dc021218.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_y3bce"]
+load_path = "res://.godot/imported/23.png-b59b7b8b77904e34be1c47d0932b21ad.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_u3yai"]
+load_path = "res://.godot/imported/24.png-f6e62be4df185fc28bd69c2a98737949.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fj6e6"]
+load_path = "res://.godot/imported/25.png-2fe14332169cb561a5b8c2238dcb9742.ctex"
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_u52ul")
+
+[node name="Background" type="ColorRect" parent="."]
+color = Color(0, 0, 0, 0)
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="UI"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -336.0
+offset_top = -184.0
+offset_right = 998.0
+offset_bottom = 790.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.0058646454
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 40
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="TopPanel" type="HBoxContainer" parent="UI/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 20
+
+[node name="Start button" type="Button" parent="UI/MarginContainer/VBoxContainer/TopPanel"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+icon = ExtResource("2_1ainy")
+flat = true
+icon_alignment = 1
+
+[node name="StatusLabel" type="Label" parent="UI/MarginContainer/VBoxContainer/TopPanel"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 2
+text = "Click Start to begin"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GridContainer" type="GridContainer" parent="UI/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 5
+
+[node name="TextureButton1" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_u52ul")
+stretch_mode = 5
+
+[node name="TextureButton2" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_vonw3")
+stretch_mode = 5
+
+[node name="TextureButton3" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_oi3di")
+stretch_mode = 5
+
+[node name="TextureButton4" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_0b4ue")
+stretch_mode = 5
+
+[node name="TextureButton5" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_f2txt")
+stretch_mode = 5
+
+[node name="TextureButton6" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_1ainy")
+stretch_mode = 5
+
+[node name="TextureButton7" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_n6hdu")
+stretch_mode = 5
+
+[node name="TextureButton8" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_km5ld")
+stretch_mode = 5
+
+[node name="TextureButton9" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_i2t4f")
+stretch_mode = 5
+
+[node name="TextureButton10" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_8cye3")
+stretch_mode = 5
+
+[node name="TextureButton11" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_2orkt")
+stretch_mode = 5
+
+[node name="TextureButton12" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_aicyk")
+stretch_mode = 5
+
+[node name="TextureButton13" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_8b0r0")
+stretch_mode = 5
+
+[node name="TextureButton14" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_h6smj")
+stretch_mode = 5
+
+[node name="TextureButton15" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_v5j5c")
+stretch_mode = 5
+
+[node name="TextureButton16" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_5pxul")
+stretch_mode = 5
+
+[node name="TextureButton17" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_fedht")
+stretch_mode = 5
+
+[node name="TextureButton18" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_4c15r")
+stretch_mode = 5
+
+[node name="TextureButton19" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_ait7k")
+stretch_mode = 5
+
+[node name="TextureButton20" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_42xju")
+stretch_mode = 5
+
+[node name="TextureButton21" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_v7sqt")
+stretch_mode = 5
+
+[node name="TextureButton22" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_ilwjd")
+stretch_mode = 5
+
+[node name="TextureButton23" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_y3bce")
+stretch_mode = 5
+
+[node name="TextureButton24" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_u3yai")
+stretch_mode = 5
+
+[node name="TextureButton25" type="TextureButton" parent="UI/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_fj6e6")
+stretch_mode = 5
+
+[node name="Show Timer" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+
+[node name="ClickSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_f2txt")
+
+[node name="CorrectSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_1ainy")
+
+[node name="WrongSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_n6hdu")
+
+[node name="WinSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_km5ld")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(256, 328)
